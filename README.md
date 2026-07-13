@@ -47,15 +47,25 @@ Guided new hires through their training, handled a high volume of customer inqui
 * Active Directory
 * Group Policy Management
 * Windows Server
+* Linux (Ubuntu)
+* LAMP Stack Deployment
+* Virtualization (VMs)
 * Dual Boot Configuration
 
 ### Networking & Security
 * Network Infrastructure
 * Firewall Management
 * VLAN Segmentation
-* VPN
+* VPN Remote Access
 * OPNsense
 * DHCP
+
+### IT Service Operations
+* IT Asset Management (Snipe-IT)
+* Helpdesk Administration (osTicket)
+* ITIL Incident Workflows
+* Ticketing Systems
+* Lifecycle Workflows
 
 ### Soft Skills & Methodologies
 * Troubleshooting
