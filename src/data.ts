@@ -1,4 +1,4 @@
-import { Server, Shield, Network } from "lucide-react";
+import { Server, Shield, Network, Terminal, Database, Ticket } from "lucide-react";
 
 export const skills = [
   {
@@ -34,36 +34,33 @@ export const skills = [
 
 export const projects = [
   {
-    title: "Active Directory Administration",
-    situation:
-      "A simulated enterprise environment required centralized identity management and structural resource organization.",
-    task: "Establish a robust domain infrastructure to securely manage user access and simplify client workstation onboarding.",
-    action:
-      "Deployed Windows Server as a Domain Controller, meticulously designing Organizational Units (OUs) and security groups to organize resources.",
-    result:
-      "Streamlined domain joining for client workstations and established a highly scalable, secure foundation for enterprise identity management.",
-    icon: Server,
-  },
-  {
-    title: "Group Policy Management",
-    situation:
-      "The organization needed to enforce strict security standards and automate system configurations across all network workstations.",
-    task: "Implement automated policies to secure systems, distribute software, and manage user environment settings without manual intervention.",
-    action:
-      "Developed and deployed comprehensive GPOs covering automated software distribution, network drive mapping, system setting restrictions, and complex password enforcement.",
-    result:
-      "Significantly improved the organizational security posture and reduced administrative overhead through automated, domain-wide compliance.",
+    category: "Enterprise Infrastructure Lab",
+    title: "Active Directory & GPO",
+    description: "Deployed Windows Server DC to manage identities/security; implemented GPOs for automated software distribution, restricted system settings, and enforced password complexity.",
     icon: Shield,
   },
   {
-    title: "Network Infrastructure & Security",
-    situation:
-      "A corporate network architecture lacked proper segmentation, secure remote access, and automated IP configuration.",
-    task: "Engineer a secure, segmented, and fully functional virtualized network environment.",
-    action:
-      "Configured an OPNsense firewall with VLAN-based segmentation to isolate server and client traffic. Implemented DHCP services for automated IP management and established a secure VPN for remote access.",
-    result:
-      "Delivered a resilient, highly secure network architecture that protects critical assets while enabling flexible, secure remote connectivity.",
+    category: "Enterprise Infrastructure Lab",
+    title: "Network Segmentation",
+    description: "Engineered a virtualized network using OPNsense with VLAN-based segmentation to isolate server/client traffic, implementing DHCP services and secure VPN remote access.",
     icon: Network,
+  },
+  {
+    category: "Enterprise Infrastructure Lab",
+    title: "Systems Administration",
+    description: "Provisioned and maintained Ubuntu Linux VMs; deployed a full LAMP stack to support internal tools, optimizing memory allocation and dependency management (Composer/CLI).",
+    icon: Terminal,
+  },
+  {
+    category: "IT Service Operations Lab",
+    title: "IT Asset Management (Snipe-IT)",
+    description: "Designed inventory databases and lifecycle workflows for hardware tracking; mapped check-in/check-out procedures to employee profiles for audit-ready chain-of-custody records.",
+    icon: Database,
+  },
+  {
+    category: "IT Service Operations Lab",
+    title: "Helpdesk Administration (osTicket)",
+    description: "Administered an open-source ticketing system to simulate ITIL-compliant incident workflows, bridging the gap between support requests and physical hardware deployment.",
+    icon: Ticket,
   },
 ];
